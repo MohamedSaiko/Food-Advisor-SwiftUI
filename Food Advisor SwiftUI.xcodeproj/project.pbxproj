@@ -15,6 +15,8 @@
 		411548472B382243001F2740 /* PostHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411548462B382243001F2740 /* PostHeader.swift */; };
 		411548492B382363001F2740 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411548482B382363001F2740 /* Constants.swift */; };
 		4115484B2B38243D001F2740 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115484A2B38243D001F2740 /* Header.swift */; };
+		4115484D2B38258B001F2740 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115484C2B38258B001F2740 /* Home.swift */; };
+		411548502B382620001F2740 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115484F2B382620001F2740 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		411548462B382243001F2740 /* PostHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeader.swift; sourceTree = "<group>"; };
 		411548482B382363001F2740 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4115484A2B38243D001F2740 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		4115484C2B38258B001F2740 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4115484F2B382620001F2740 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			children = (
 				411548352B381F75001F2740 /* Food_Advisor_SwiftUIApp.swift */,
 				411548482B382363001F2740 /* Constants.swift */,
+				4115484E2B3825EE001F2740 /* ViewModels */,
 				411548452B3821FE001F2740 /* HomeScreen */,
 				411548372B381F75001F2740 /* ContentView.swift */,
 				411548392B381F76001F2740 /* Assets.xcassets */,
@@ -83,8 +88,17 @@
 				411548462B382243001F2740 /* PostHeader.swift */,
 				411548432B382182001F2740 /* PostView.swift */,
 				4115484A2B38243D001F2740 /* Header.swift */,
+				4115484C2B38258B001F2740 /* Home.swift */,
 			);
 			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		4115484E2B3825EE001F2740 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4115484F2B382620001F2740 /* HomeViewModel.swift */,
+			);
+			name = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +174,11 @@
 				411548492B382363001F2740 /* Constants.swift in Sources */,
 				411548382B381F75001F2740 /* ContentView.swift in Sources */,
 				411548442B382182001F2740 /* PostView.swift in Sources */,
+				411548502B382620001F2740 /* HomeViewModel.swift in Sources */,
 				411548472B382243001F2740 /* PostHeader.swift in Sources */,
 				4115484B2B38243D001F2740 /* Header.swift in Sources */,
 				411548362B381F75001F2740 /* Food_Advisor_SwiftUIApp.swift in Sources */,
+				4115484D2B38258B001F2740 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
