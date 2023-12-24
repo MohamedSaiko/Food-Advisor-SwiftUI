@@ -17,6 +17,7 @@
 		4115484B2B38243D001F2740 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115484A2B38243D001F2740 /* Header.swift */; };
 		4115484D2B38258B001F2740 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115484C2B38258B001F2740 /* Home.swift */; };
 		411548502B382620001F2740 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115484F2B382620001F2740 /* HomeViewModel.swift */; };
+		411548532B384987001F2740 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411548522B384987001F2740 /* SignIn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		4115484A2B38243D001F2740 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		4115484C2B38258B001F2740 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		4115484F2B382620001F2740 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		411548522B384987001F2740 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				411548352B381F75001F2740 /* Food_Advisor_SwiftUIApp.swift */,
 				411548482B382363001F2740 /* Constants.swift */,
 				4115484E2B3825EE001F2740 /* ViewModels */,
+				411548512B3848FE001F2740 /* SignInScreen */,
 				411548452B3821FE001F2740 /* HomeScreen */,
 				411548372B381F75001F2740 /* ContentView.swift */,
 				411548392B381F76001F2740 /* Assets.xcassets */,
@@ -99,6 +102,15 @@
 				4115484F2B382620001F2740 /* HomeViewModel.swift */,
 			);
 			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		411548512B3848FE001F2740 /* SignInScreen */ = {
+			isa = PBXGroup;
+			children = (
+				411548522B384987001F2740 /* SignIn.swift */,
+			);
+			name = SignInScreen;
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				411548492B382363001F2740 /* Constants.swift in Sources */,
+				411548532B384987001F2740 /* SignIn.swift in Sources */,
 				411548382B381F75001F2740 /* ContentView.swift in Sources */,
 				411548442B382182001F2740 /* PostView.swift in Sources */,
 				411548502B382620001F2740 /* HomeViewModel.swift in Sources */,
